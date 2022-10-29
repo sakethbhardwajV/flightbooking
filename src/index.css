@@ -11,3 +11,57 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+label {
+  display: block;
+}
+
+i {
+  margin: 10px;
+}
+
+.main-container {
+  background-color: bisque;
+  padding: 20px;
+  width: 40%;
+}
+
+.container-signup {
+  margin: 20px;
+}
+
+
+.registerbtn {
+  background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Nunito',
+    sans-serif;
+    padding: 16px 20px;
+    transition: background-color 200ms, color 200ms;
+    width: 100%;
+    box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.1);
+}
+
+.registerbtn:hover {
+    background-color: #C2CDD6;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type=text], input[type=password] {
+  width: 50%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
